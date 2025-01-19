@@ -1,0 +1,7 @@
+⭐️Why Java?
+    1) Compile Time Env: Source code  => bytecode(by JVM)
+    2) Run Time Env: Scanning is happened at the runtime.
+
+    👉This Bytecode is platform independent.
+    👉Java can be considered both a compiled and an interpreted language because its source code
+        is first compiled into a binary byte-code. This byte-code runs on the Java Virtual Machine (JVM)
