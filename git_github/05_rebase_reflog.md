@@ -17,7 +17,7 @@ git rebase main
 
 ### Recover lost commits or changes
 
-        - If you accidentally deleted a branch or made changes that are no longer visible in the commit history, you can often recover them using the reflog. First, find the reference to the commit where the branch or changes existed, and then reset your branch to that reference.
+- If you accidentally deleted a branch or made changes that are no longer visible in the commit history, you can often recover them using the reflog. First, find the reference to the commit where the branch or changes existed, and then reset your branch to that reference.
 
 ```sh
 git reflog <commit-hash>
