@@ -1,4 +1,3 @@
-# diff stash and Tags
 
 # Git Diff, Stash, and Tag
 
