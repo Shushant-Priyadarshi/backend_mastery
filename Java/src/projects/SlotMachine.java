@@ -35,6 +35,7 @@ public class SlotMachine {
             System.out.println(" "+ String.join(" || ", result));
         }
         input.close();
+        System.out.println("No Balance Left!!");
         System.out.println("Thanks for playing!");
 
 
