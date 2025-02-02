@@ -1,8 +1,8 @@
-package projects.quizz_app;
+package projects;
 
 import java.util.Scanner;
 
-public class Main {
+public class Quizz_App {
     public static void main(String[] args) {
         //String Questions
         String[] questions= {"1. What is the capital of Japan?",

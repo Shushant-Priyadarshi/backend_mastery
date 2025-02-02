@@ -1,9 +1,9 @@
-package projects.rock_paper_scissors;
+package projects;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class RPC {
     public static void main(String[] args) {
         String[] choice = {"rock", "paper", "scissor"};
         String playerChoice;
