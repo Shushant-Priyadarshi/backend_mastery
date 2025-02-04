@@ -15,7 +15,7 @@
 -  Lighter and faster compared to CGLIB.
 - We can implement Caching using proxy
 - Let’s say we have a VehicleService interface.
-```
+```java
 public interface VehicleService {
     void drive();
 }
@@ -24,7 +24,7 @@ public interface VehicleService {
 ```
 
 - Now, we create a class CarService that implements the interface.
-```
+```java
 import org.springframework.stereotype.Service;
 
 @Service
@@ -50,7 +50,7 @@ public class CarService implements VehicleService {
 ## Java Reflections
 - Java Reflection is a feature that allows you to inspect and manipulate classes, methods, fields, and constructors at runtime. It is part of the `java.lang.reflect` package.
 
-```
+```java
 public class Person {
     private String name;
     public int age;
@@ -63,7 +63,7 @@ public class Person {
 }
 
 ```
-```
+```java
 import java.lang.reflect.*;
 
 public class ReflectionExample {
