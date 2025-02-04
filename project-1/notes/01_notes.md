@@ -79,3 +79,14 @@ public class AppConfig {
 
 - How Does It Work?
   - Maven uses a file called pom.xml to manage dependencies.
+
+### Dependency Injection
+- Dependency Injection (DI) is a design pattern used in Spring to manage dependencies between objects automatically.
+  Instead of creating objects manually using new, Spring injects them where needed.
+
+### ApplicationContext 
+
+- ApplicationContext is the container in Spring that manages all beans and their dependencies. It acts as a central registry that:
+    - Creates beans (objects marked with @Component or @Bean).
+    - Resolves dependencies using Dependency Injection.
+    - Manages the lifecycle of beans.
