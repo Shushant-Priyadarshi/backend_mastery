@@ -42,7 +42,7 @@ public class CarService implements VehicleService {
 - When `CarService` is injected somewhere, Spring creates a proxy object instead of directly giving the original object.
 - The proxy object intercepts method calls and can add extra functionality (like logging, security, etc.).
 
-- CGLIB Proxy (Class-based Proxy) → Uses `net.sf.cglib.proxy`
+## CGLIB Proxy (Class-based Proxy) → Uses `net.sf.cglib.proxy`
   - Used when there is no interface.
   - Uses bytecode generation to create a proxy.
   - Slower than JDK proxies but more flexible.
